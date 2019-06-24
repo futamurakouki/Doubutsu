@@ -1,11 +1,6 @@
-class KomaStatus {
-  boolean captured;
-  boolean active;
-  boolean selected;
+class Hiyoko extends AbstractKoma {
 
-  KomaStatus(boolean active) {
-    this.active = active;
-    this.captured = false;
-    this.selected = false;
+  Hiyoko(String name, int x, int y, int team, boolean active) {
+    super(name, x, y, team, active);
   }
 }
